@@ -1,7 +1,7 @@
 <p>Install dependencies</p>
 ```sudo apt update && sudo apt install bspwm sxhkd polybar picom rofi dunst feh alacritty thunar```
 <p>Make the folders for configs</p>
-```cd $HOME/.config/ && mkdir bspwm/ && mkdir dunst/ && mkdir picom/ && sxhkd```
+```cd $HOME/.config/ && mkdir bspwm/ dunst/ picom/ sxhkd/ && cd```
 <p>Then clone the repo and cd into it</p>
 ```git clone https://github.com/PlaidSnowFrog/bspwmConfig/ && cd bspwmConfig```
 <p>And put everything in the config folder</p>
